@@ -14,6 +14,7 @@ function JSXQues() {
             { age > 15 && <li>Brussels Sprouts</li> }
             { age > 20 && <li>Oysters</li> }
             { age > 25 && <li>Grapes</li> }
+
         </ul>
         <h1>
             { age >= drinkingAge ? 'Buy Drink' : 'Do Teen Stuff' }
