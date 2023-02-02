@@ -1,0 +1,35 @@
+"this" referrence to the object that is executing the current function
+method ->  Points to the OBJ 
+function -> Points to the window(if Browser) or global(if Node)
+In an event, this refers to the element that received the event.
+[-] Non scrict mode
+    [+]Browser
+        [+] console.log(this)-> window
+        [+] inside a function-> window
+        [+] inside a method of an obj-> obj
+        [+] inside a function which is inside a method of an obj-> window
+        [+] for callbacks(Good Parts book(Douglas Crockford))-> window/enclosed obj
+    [+]Node
+        [+] console.log(this)-> {}
+        [+] inside a function-> global obj
+        [+] inside a method of an obj-> obj
+        [+] inside a function which is inside a method of an obj-> global
+        [+] for callbacks(Good Parts book(Douglas Crockford))-> global/enclosed obj
+[+] scrict mode
+    [+]Browser
+        [+] console.log(this)-> window
+        [+] inside a function-> undefined
+        [+] inside a method of an obj-> obj
+        [+] inside a function which is inside a method of an obj-> undefined
+        [+] for callbacks(Good Parts book(Douglas Crockford))-> undefined/enclosed obj
+    [+]Node
+        [+] console.log(this)-> {}
+        [+] inside a function-> undefined
+        [+] inside a method of an obj-> obj
+        [+] inside a function which is inside a method of an obj-> undefined
+        [+] for callbacks(Good Parts book(Douglas Crockford))-> undefine/obj
+
+
+HW
+Evaluate how "THIS" works with arror functions(strict and non strict mode, in Browser and node)
+

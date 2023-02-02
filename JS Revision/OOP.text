@@ -1,0 +1,34 @@
+1) Constructor Function
+2)ES6 Classes
+3)Object.create()
+[+] Constructor Function
+    [+] Function Statement and Function Declaration
+    [+] Four steps of object creation
+    [+] instance property
+    [+] Why it is bad to add a function to the instance
+    [+] Add functions to the prototype(why it is bad as well)
+    [+] prototype chain / prototype inheritance / delegation(read on MDN as well)
+    [+] Why arrow functions dosen't work
+[+] Es6 Classes
+    [+] Class Statement or Class Declaration,class Expression
+    [+] important info about classes(They are not hoisted,execute in strict mode,FCC)
+    [+] Explain why the steps are same as Constructor functions (4 steps)
+    [+] getters and setters (setters naming conflict, error)
+[+] Object.create();
+
+[+] static methods
+    [+] Constructor function
+    [+] es6 classes
+
+[-] inheritance
+    [-] Constructor function
+    [-] es6 classes(super() function)
+    [-] object.create()
+
+[-] Encapsulation(still in consideration)
+    [-] Es6 classes(#)(public,protected,private,static,default,)
+
+
+
+
+
